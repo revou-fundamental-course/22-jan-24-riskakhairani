@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+:root
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    color: black;
+    font-family:'Poppins', sans-serif;
+}
+
+
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    padding-right: 25px;
+    padding-left: 25px;
+    border-bottom: 0.5px solid lightgray;
+}
+.navbar-title {
+    font-size: 25px;
+    font-family: 'Lobster', sans-serif;
+    font-weight: 400;
+}
+.navbar-option {
+    display: flex;
+    padding: 12px;
+}
+a[href] {
+    border: 2px solid black;
+    padding: 10px 25px;
+    border-radius: 3px;
+}
+
+
+
+.header {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 45vh;
+}
+.header-title-up,.header-title-down {
+    font-weight: 800;
+}
+.header-paragraf {
+    font-weight: 300;
+    font-size: 20px;
+    color: gray;
+    padding: 20px;
+}
+
+
+
+.text-contact {
+    display: flex;
+}
+
+
+
+.text {
+    padding: 1rem;
+    padding-top: 0;
+}
+.text-image > img {
+    width: 850px;
+    height: 450px;
+    padding-right: 25px;
+    border-radius: 5px;
+}
+.text-image > p {
+    padding: 1rem;
+    text-align: center;
+    color: gray;
+}
+.text-person {
+    display: flex;
+    padding-left: 1rem;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+    gap: 1rem;
+}
+.text-person-avatar {
+    width: 50px ;
+    height: 50px ;
+    background-color: gainsboro;
+    border-radius: 50%;
+    position: relative;
+    padding: 5px;
+}
+.text-person-name-job {
+    text-align: center;
+}
+.text-person-name {
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+}
+.text-person-job {
+    color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+}
+
+
+
+.contact {
+    display: inline-block;
+    background-color: gainsboro;
+    padding: 50px;
+    border-radius: 5px;
+}
+.contact-text > h3 {
+    font-weight: bold;
+}
+.contact-text-paragraf{
+    padding-top: 25px;
+    padding-bottom: 50px;
+}
+.contact-text-paragraf > p {
+    color: gray;
+}
+.contact-submit > label {
+    font-weight: bold;
+}
+.contact-submit > input{
+    padding: 12px 20px;
+    margin-bottom: 1rem;
+}
+.contact-submit > select{
+    padding: 12px 50px;
+    margin-bottom: 1rem;
+}
+.contact-submit > button {
+    padding: 12px 80px;
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+
+
+.information {
+    padding: 1rem;
+}
+.information-list {
+    padding: 1rem;
+}
+.information-list1, .information-list2, .information-list3 {
+    display: flex;
+}
+.information-number {
+    display: inline-block;
+    padding: 10px 15px;
+    width:40px;
+    height:40px;
+    background-color: gainsboro;
+    border-radius:50%;
+    color: gray;
+    font-weight: bold;
+}
+.information-paragraf {
+    text-align: center;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+}
+.information-paragraf1 {
+    color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+}
+.information-paragraf2 {
+    color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+}
+
+
+
+.our-package-title {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    background-color: gainsboro;
+    font-weight: 800;
+    font-size: 30px;
+}
+.our-package-list {
+    padding: 100px 20px;
+}
+.our-package-list1, .our-package-list2{
+    padding: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+.our-package-lamp, .our-package-star {
+    display: flex;
+    width: 50px ;
+    height: 50px ;
+    background-color: gainsboro;
+    border-radius: 50%;
+    position: relative;
+    padding: 5px;
+}
+.our-package-list-1, .our-package-list-2, .our-package-list-3 {
+    display: flex;
+}
+.our-package-list1 > h3, .our-package-list2 > h3 {
+    font-weight: 800;
+    font-size: 20px;
+    grid-column: 2;
+}
+.our-package-list-text {
+    text-align: start;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+}
+.our-package-paragraf1, .our-package-paragraf2, .our-package-paragraf3, .our-package-paragraf4 {
+    align-items: center;
+    color: gray;
+    grid-column: 2;
+}
+
+
+
+.call-us {
+    border-top: 0.5px solid lightgray;
+    border-bottom: 0.5px solid lightgray;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+.call-us-title {
+    font-weight: 800;
+    font-size: 30px;
+    padding-bottom: 2rem;
+}
+.call-us-paragraf1 {
+    color: gray;
+    text-align: center;
+}
+.call-us-paragraf2 {
+    color: gray;
+    text-align: center;
+    padding-bottom: 2rem;
+}
+.call-us-button {
+    padding: 12px 80px;
+    color: white;
+    background-color: black;
+    font-weight: bold;
+    border-radius: 3px;
+}
+footer {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+}
+.footer-title {
+    font-size: 25px;
+    font-family: 'Lobster', sans-serif;
+    font-weight: 400;
+}
+.footer-up > span, .footer-down > span{
+    color: gray;
+    padding-inline: 5px;
+}
